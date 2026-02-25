@@ -34,10 +34,10 @@
 Choose one of the following:
 
 - 🟢 **Violentmonkey (Chrome)**  
-  https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?pli=1  
+  https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?pli=1
 
 - 🔵 **Tampermonkey (Chrome)**  
-  https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi  
+  https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
 
 - 🦊 **Greasemonkey (Firefox)**  
   https://addons.mozilla.org/vi/firefox/addon/greasemonkey/
@@ -59,7 +59,7 @@ After installing a userscript manager, click the button above and confirm instal
 ## 📍 Usage Guide
 
 1. Visit:  
-   👉 https://congdaotao.tmu.edu.vn  
+   👉 https://congdaotao.tmu.edu.vn
 
 2. Open your **Schedule** page.
 3. Click the **Export** button.
@@ -71,7 +71,7 @@ After installing a userscript manager, click the button above and confirm instal
 ## 🖼 Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cecon123/tmu-to-ical/main/assets/screenshot.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/cecon123/tmu-to-ical/main/preview.png"/>
 </p>
 
 ---
