@@ -1,25 +1,29 @@
 {
-  "name": "bun-ts-userscript-starter",
-  "version": "1.0.2",
-  "description": "A Greasemonkey/Tampermonkey/Violentmonkey Bun + TypeScript boilerplate",
+  "name": "tmu-to-ical",
+  "version": "1.0.0",
+  "description": "Convert TMU schedule to iCal",
   "module": "src/index.ts",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genzj/bun-ts-userscript-starter.git"
+    "url": "git+https://github.com/cecon123/tmu-to-ical.git"
   },
   "bugs": {
-    "url": "https://github.com/genzj/bun-ts-userscript-starter/issues"
+    "url": "https://github.com/cecon123/tmu-to-ical/issues"
   },
-  "homepage": "https://github.com/genzj/bun-ts-userscript-starter#readme",
+  "homepage": "https://github.com/cecon123/tmu-to-ical#readme",
   "userscriptHeader": {
     "@match": [
-      "http*://example.com/",
-      "http*://www.example.com/"
+      "http*://congdaotao.tmu.edu.vn/*"
     ],
-    "@grant": "GM_addStyle"
+    "@grant": [
+      "GM_xmlhttpRequest",
+      "GM_addStyle"
+    ],
+    "@run-at": "document-start",
+    "@icon": "https://congdaotao.tmu.edu.vn/static/images/logos/logo-dhtm-3.png"
   },
-  "author": "genzj",
+  "author": "cecon123",
   "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest",
@@ -41,6 +45,5 @@
     "build:workflow": "bun build.ts --release-channel GitHubRelease",
     "clean": "rimraf ./dist/",
     "dev": "bun build.ts --dev --server --watch"
-  },
-  "dependencies": {}
+  }
 }
