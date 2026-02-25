@@ -1,6 +1,6 @@
 {
   "name": "tmu-to-ical",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert TMU schedule to iCal",
   "module": "src/index.ts",
   "type": "module",
